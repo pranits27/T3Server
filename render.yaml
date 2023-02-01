@@ -1,7 +1,7 @@
 services:
   - type: web
     name: t3server
-    env: node
+    env: docker
     repo: https://github.com/pranits27/T3Server.git # optional
     region: defaults # optional (defaults to oregon)
     plan: defaults # optional (defaults to starter)
