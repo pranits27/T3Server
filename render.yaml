@@ -1,9 +1,10 @@
 services:
   # A Docker web service
-  - type: web
+  - type: worker
     name: t3server
     env: docker
     repo: https://github.com/pranits27/T3Server.git # optional
     region: defaults # optional (defaults to oregon)
-    plan: standard # optional (defaults to starter)
+    plan: defaults # optional (defaults to starter)
     branch: ops # optional (defaults to master)
+    dockerCommand: defaults
